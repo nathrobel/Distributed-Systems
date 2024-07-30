@@ -63,9 +63,13 @@ Prerequisites:
     Python 3.x
     requests library (pip install requests)
 # Running the Code:
-To run the first part of the exercide(Session 1), navigate to the directory containing mysession2.py. Type the following code in your terminal:
+To run the first part of the exercise(Session 1), navigate to the directory containing mysession1.py. Type the following code in your terminal:
 python3 mysession1.py
 
-To run the second part of the exercise (Session 2), navigate to the directory containing mysession2.py and execute the following command in the terminal:
-
+To run the second part of the exercise(Session 1), navigate to the directory containing mysession2.py. Type the following code in your terminal:
 python3 mysession2.py
+
+Credits:
+Created by Nathan Robel 2024
+
+T
