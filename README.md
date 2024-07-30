@@ -76,7 +76,7 @@ python3 mysession1.py
 To run the second part of the exercise(Session 1), navigate to the directory containing mysession2.py. Type the following code in your terminal:
 python3 mysession2.py
 
-Credits:
+# Credits:
 Created by Nathan Robel 2024
 
 
