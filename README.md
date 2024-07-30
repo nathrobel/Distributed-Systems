@@ -55,13 +55,12 @@ Steps:
    ![mySession2](Mysession2pt2.png)
    
         
-
-# Usage Instructions
-
+# Usage Instructions:
 Prerequisites:
 
-    Python 3.x
-    requests library (pip install requests)
+Python 3.x 
+requests library(pip install requests)
+
 # Running the Code:
 To run the first part of the exercise(Session 1), navigate to the directory containing mysession1.py. Type the following code in your terminal:
 python3 mysession1.py
@@ -72,4 +71,4 @@ python3 mysession2.py
 Credits:
 Created by Nathan Robel 2024
 
-T
+
