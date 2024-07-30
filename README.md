@@ -51,6 +51,11 @@ Steps:
 
     Ensure Delay Between Requests:
         A delay of at least 1 second is enforced between successive requests to prevent denial of service attacks.
+   ![mySession2](mySession2pt1.png)
+
+   ![mySession2](mySession2pt2.png)
+   
+        
 
 # Usage Instructions
 
