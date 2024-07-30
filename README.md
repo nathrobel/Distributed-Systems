@@ -37,6 +37,12 @@ Steps:
         The client checks for available slots in both the hotel and band systems, focusing on the first 20 slots.
     Book the Earliest Common Slot:
         The client books the earliest available common slot in both systems.
+    Release Other Booked Slots:
+        If a slot is reserved, the client releases other less optimal booked slots.
+
+
+
+    
      Release Other Booked Slots:
         If a slot is reserved, the client releases other less optimal booked slots
         
