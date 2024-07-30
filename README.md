@@ -3,6 +3,7 @@
 
 
 This project involves creating a Python client to interact with hotel and band reservation systems. The client performs basic operations like checking and reserving slots, cancelling reservations, finding free slots, and checking slots reserved by the user. Additionally, the client implements a strategy to reserve identical slots in both systems while handling concurrency and message delays.
+
 # MySession 1: Basic Operations
 
 1. Checking and Reserving a Slot
@@ -32,21 +33,32 @@ This project involves creating a Python client to interact with hotel and band r
 Objective:
 Implement a strategy to reserve the same numbered slot for both the hotel and the band, ensuring concurrency handling and message delays.
 
-Steps:
-    Check for Availability:
-        The client checks for available slots in both the hotel and band systems, focusing on the first 20 slots.
-    Book the Earliest Common Slot:
-        The client books the earliest available common slot in both systems.
-    Release Other Booked Slots:
-        If a slot is reserved, the client releases other less optimal booked slots.
-    Recheck for Better Bookings:
-        The client periodically checks for better available slots and updates the reservation if a better slot is found.
-    Display Appropriate Messages:
-        The client provides feedback messages to the user regarding the status of their reservations.
-    Ensure Delay Between Requests:
-        A delay of at least 1 second is enforced between successive requests to prevent denial of service attacks.
-    
-    
+
+
+1.  Check for Availability:
+
+     The client checks for available slots in both the hotel and band systems, focusing on the first 20 slots.
+
+2. Book the Earliest Common Slot:
+
+     The client books the earliest available common slot in both systems.
+
+3. Release Other Booked Slots:
+     If a slot is reserved, the client releases other less optimal booked slots.
+
+4. Recheck for Better Bookings:
+   
+     The client periodically checks for better available slots and updates the reservation if a better slot is found.
+   
+5. Display Appropriate Messages:
+   
+     The client provides feedback messages to the user regarding the status of their reservations.
+   
+6. Ensure Delay Between Requests:
+   
+      A delay of at least 1 second is enforced between successive requests to prevent denial of service attacks.
+
+
    ![mySession2](mySession2pt1.png)
    ![mySession2](Mysession2pt2.png)
    
