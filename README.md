@@ -24,6 +24,8 @@ This project involves creating a Python client to interact with hotel and band r
 
     The client sends a GET request to fetch slots reserved by the user.
     Displays the reserved slots for the user.
+![mySession1](mySession1.png)
+
 
  # MySession 2: Reserving Identical Slots
 
