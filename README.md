@@ -39,22 +39,13 @@ Steps:
         The client books the earliest available common slot in both systems.
     Release Other Booked Slots:
         If a slot is reserved, the client releases other less optimal booked slots.
-
-
-
-    
-     Release Other Booked Slots:
-        If a slot is reserved, the client releases other less optimal booked slots
-        
     Recheck for Better Bookings:
         The client periodically checks for better available slots and updates the reservation if a better slot is found.
-        
     Display Appropriate Messages:
-        The client provides feedback messages to the user regarding the status or their reservations.
-        
+        The client provides feedback messages to the user regarding the status of their reservations.
     Ensure Delay Between Requests:
         A delay of at least 1 second is enforced between successive requests to prevent denial of service attacks.
-   
+    
     
    ![mySession2](mySession2pt1.png)
    ![mySession2](Mysession2pt2.png)
